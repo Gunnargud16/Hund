@@ -69,13 +69,13 @@ footer {
 }
 
 .event-kalender h2 {
-  color: white; /* Overskriftsfarve */
+  color: white; 
 
 }
 
 .event-kalender img {
-  width: 300px; /* Juster bredden efter behov */
-  height: 250px; /* Juster højden efter behov */
+  width: 300px; 
+  height: 250px; 
   margin: 30px;
 
 }
@@ -84,7 +84,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* Allow images to wrap if necessary */
+  flex-wrap: wrap; 
 
 }
 
@@ -92,7 +92,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap; /* Allow images to wrap if necessary */
+  flex-wrap: wrap; 
 }
 
 
@@ -168,7 +168,7 @@ footer {
     height: 2px;
     background-color: black;
     border: none;
-    z-index: 1; /* Ensure the line is above other elements */
+    z-index: 1; 
     margin-left: 40px;
     margin-right: 40px;
   }
