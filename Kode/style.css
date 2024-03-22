@@ -1,0 +1,174 @@
+body {
+  margin: 20px; 
+  padding: 20px; 
+}
+
+header {
+  background-color: #25228E;
+  height: 300px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  
+}
+
+footer {
+  background-color: #25228E;
+  height: 200px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.billede1 img {
+  width: 100%;
+  height: auo;
+  display: block;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 65%;
+  width: 100%; 
+  height: 100%; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hvilken {
+  background-color: #5351C1; 
+  color: white; 
+  padding: 20px; 
+  margin: 0; 
+  height: 200px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  padding-right: 150px;
+  font-size: large;
+  
+}
+
+.event-kalender {
+  background-color: #25228E;
+  padding: 20px;
+  margin: 0;
+  text-align: center;
+  font-size: large;
+}
+
+.event-kalender h2 {
+  color: white; /* Overskriftsfarve */
+
+}
+
+.event-kalender img {
+  width: 300px; /* Juster bredden efter behov */
+  height: 250px; /* Juster højden efter behov */
+  margin: 30px;
+
+}
+
+.images-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow images to wrap if necessary */
+
+}
+
+.image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* Allow images to wrap if necessary */
+}
+
+
+
+.event-kalender {
+  background-color: #25228E; 
+  padding: 20px; 
+  margin: 0; 
+  height: 350px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  padding-right: 150px;
+  font-size: large;
+  
+}
+ 
+.derfor {
+  background-color: #5351C1; 
+  color: white; 
+  padding: 20px; 
+  margin: 0; 
+  height: 200px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  padding-left: 100px;
+  padding-right: 150px;
+  font-size: large;
+  
+}
+
+
+
+
+
+
+.button {
+  background-color: rgb(203, 219, 230);
+  color: rgba(17, 16, 16, 0.898);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 20px;
+  transition: backgrund-color 1s;
+  color: 1s;
+  padding-left: 10px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 10px;
+  font-size: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.button:hover {
+ background-color: blue;
+ color: white;
+ 
+
+
+}
+.button:active {
+  opacity: 0.5;
+}
+
+
+.line {
+    position: absolute;
+    bottom: 525px;
+    left: 0;
+    width: 94.5vw;
+    height: 2px;
+    background-color: black;
+    border: none;
+    z-index: 1; /* Ensure the line is above other elements */
+    margin-left: 40px;
+    margin-right: 40px;
+  }
